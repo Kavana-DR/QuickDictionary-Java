@@ -1,0 +1,60 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #393f4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://tec-online.org/wp-content/uploads/2020/02/GettyImages-171578191-1024x1013.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: rgb(167, 223, 226);
+    padding: 30px;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    padding: 12px 18px;
+    background: #4463f7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #2747db;
+}
+
+.result-card {
+    margin-top: 25px;
+    padding: 20px;
+    background: #eef1ff;
+    border-radius: 10px;
+    text-align: left;
+}
